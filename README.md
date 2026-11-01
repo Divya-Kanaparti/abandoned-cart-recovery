@@ -195,12 +195,10 @@ Install the following software:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/abandoned-cart-recovery.git
-
+git clone https://github.com/Divya-Kanaparti/abandoned-cart-recovery.git
 cd abandoned-cart-recovery
 ```
 
-Replace `YOUR_USERNAME` with the GitHub repository owner's username.
 
 ### Step 2: Create the MySQL Database
 
