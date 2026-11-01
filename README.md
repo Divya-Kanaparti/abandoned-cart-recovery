@@ -222,7 +222,10 @@ Import the database schema:
 source <file-path>
 source C:/Users/YourName/Documents/schema.sql
 ```
-
+To Verify the tables:
+```sql
+show tables;
+```
 ### Step 3: Configure the Backend
 
 Create a Python virtual environment:
