@@ -1,0 +1,9 @@
+{
+  "provenance": "fully synthetic; no external or personal datasets used",
+  "generator": "generator/generate_data.py",
+  "seed": 20261022,
+  "reference_time": "2026-10-30T12:00:00",
+  "profile": "full",
+  "external_sources": [],
+  "license_note": "Synthetic records generated for this project; no third-party dataset license applies."
+}

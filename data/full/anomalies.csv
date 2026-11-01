@@ -1,0 +1,5 @@
+issue_type,ground_truth,expected_decision,actual_decision,affected_entity_id,description,detected_at
+MESSAGE_AFTER_OPTOUT,CONSENT_WITHDRAWN,BLOCK_SEND,SEND_RECORDED,CUS-000001,Isolated negative fixture; not a baseline send. A contact attempt after the final opt-out must be blocked.,2026-10-30T12:00:00
+CART_ABANDONED_AFTER_PURCHASE,ORDER_PRECEDES_EVALUATION,NOT_ABANDONED,ABANDONED,CART-2026-019523,Isolated negative fixture; a qualifying purchase before evaluation prevents abandonment.,2026-10-30T12:00:00
+ATTRIBUTION_DOUBLE_COUNT,ONE_ORDER_ONE_CREDIT,FLAG_DUPLICATE,MULTIPLE_CAMPAIGNS_CREDITED,ORD-2026-000001,Isolated negative fixture; one order must not receive credit from multiple campaigns.,2026-10-30T12:00:00
+STALE_CART_TOTAL,LINE_SUM_IS_SOURCE_OF_TRUTH,RECALCULATE_TOTAL,STALE_TOTAL_RETAINED,CART-2026-050000,Isolated negative fixture; totals are reconciled from final quantities in baseline records.,2026-10-30T12:00:00

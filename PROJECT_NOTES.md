@@ -1,0 +1,3 @@
+## Implementation notes
+
+This repository contains a locally runnable abandoned-cart recovery demo: deterministic synthetic data generation, relational MySQL schema and seed export, FastAPI endpoints, React dashboard, channel-consent and suppression rules, event history, last-touch attribution, anomaly fixtures, validation, and automated tests. Attribution rows are generated from qualifying message interactions and orders; the four negative scenarios are isolated in labelled anomaly fixtures rather than contaminating baseline tables. Messaging is simulated only; no live email/SMS provider is connected.

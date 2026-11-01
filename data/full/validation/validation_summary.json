@@ -1,0 +1,23 @@
+{
+  "status": "PASS_WITH_LABELLED_ANOMALIES",
+  "row_counts": {
+    "attributions": 591,
+    "audit_decisions": 10000,
+    "campaigns": 10000,
+    "cart_events": 137666,
+    "cart_lines": 125191,
+    "carts": 50000,
+    "consents": 110750,
+    "customers": 50000,
+    "ground_truth": 50000,
+    "message_templates": 10000,
+    "order_lines": 12601,
+    "orders": 5000,
+    "send_attempts": 10000,
+    "send_events": 16700,
+    "sessions": 50000
+  },
+  "validation_issue_count": 0,
+  "labelled_anomaly_count": 4,
+  "issues": []
+}

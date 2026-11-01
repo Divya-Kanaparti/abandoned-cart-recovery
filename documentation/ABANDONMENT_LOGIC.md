@@ -1,0 +1,2 @@
+# Abandonment logic
+At evaluation time, calculate `now - last_activity_at >= 60 minutes`. Require non-empty cart and no completed order before evaluation. Recovered, expired and suppressed carts are terminal/non-eligible. Purchase before evaluation wins over stale activity state. Store computed state and timestamp; do not infer from status alone.

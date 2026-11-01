@@ -1,0 +1,2 @@
+# Consent and suppression
+Consent is channel-specific and append-only. Latest effective record at or before send time wins. OPTED_IN is required. OPTED_OUT and UNKNOWN block. Additional checks: purchased cart, cart eligibility, duplicate cart message, maximum 3 attempts in rolling 7 days, minimum 24 hours between attempts, invalid contact details. Persist every decision with reason_code in audit_decisions. Synthetic provider has no network integration.

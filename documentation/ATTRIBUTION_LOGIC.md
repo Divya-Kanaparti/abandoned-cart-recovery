@@ -1,0 +1,2 @@
+# Attribution logic
+Window: 7 days before order timestamp. Interaction must be after send and before order, with same customer and cart. Single-touch policy: rank CLICKED > OPENED > DELIVERED; within same rank, latest interaction timestamp wins; send_id is deterministic final tie-break. A unique order_id constraint prevents duplicate credit. Orders without eligible interactions remain unattributed. Attributed revenue equals order_total and is counted once.

@@ -1,0 +1,42 @@
+{
+  "profile": "full",
+  "seed": 20261022,
+  "reference_time": "2026-10-30T12:00:00",
+  "abandonment_window_minutes": 60,
+  "attribution_window_days": 7,
+  "frequency_cap_per_channel_7d": 3,
+  "minimum_hours_between_sends": 24,
+  "row_counts": {
+    "customers": 50000,
+    "consents": 110750,
+    "sessions": 50000,
+    "carts": 50000,
+    "cart_lines": 125191,
+    "campaigns": 10000,
+    "message_templates": 10000,
+    "send_attempts": 10000,
+    "send_events": 16700,
+    "orders": 5000,
+    "order_lines": 12601,
+    "attributions": 591,
+    "audit_decisions": 10000,
+    "cart_events": 137666,
+    "ground_truth": 50000,
+    "anomalies": 4
+  },
+  "abandonment_candidates": 20000,
+  "recovered_carts": 2029,
+  "attributed_orders": 591,
+  "metrics": {
+    "abandonment_rate": 0.4,
+    "recovery_rate_of_abandoned_carts": 0.1014,
+    "suppression_rate_of_attempts": 0.3482,
+    "delivery_rate_of_attempts": 0.6203,
+    "open_rate_of_delivered": 0.4507,
+    "click_rate_of_opened": 0.3104,
+    "attributed_conversion_rate_of_delivered": 0.0953,
+    "total_order_revenue_inr": 61796362.0,
+    "attributed_revenue_inr": 7268876.0,
+    "attributed_revenue_share": 0.1176
+  }
+}

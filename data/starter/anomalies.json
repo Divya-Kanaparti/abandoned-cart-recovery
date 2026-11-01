@@ -1,0 +1,38 @@
+[
+  {
+    "issue_type": "MESSAGE_AFTER_OPTOUT",
+    "ground_truth": "CONSENT_WITHDRAWN",
+    "expected_decision": "BLOCK_SEND",
+    "actual_decision": "SEND_RECORDED",
+    "affected_entity_id": "CUS-000001",
+    "description": "Isolated negative fixture; not a baseline send. A contact attempt after the final opt-out must be blocked.",
+    "detected_at": "2026-10-30T12:00:00"
+  },
+  {
+    "issue_type": "CART_ABANDONED_AFTER_PURCHASE",
+    "ground_truth": "ORDER_PRECEDES_EVALUATION",
+    "expected_decision": "NOT_ABANDONED",
+    "actual_decision": "ABANDONED",
+    "affected_entity_id": "CART-2026-019523",
+    "description": "Isolated negative fixture; a qualifying purchase before evaluation prevents abandonment.",
+    "detected_at": "2026-10-30T12:00:00"
+  },
+  {
+    "issue_type": "ATTRIBUTION_DOUBLE_COUNT",
+    "ground_truth": "ONE_ORDER_ONE_CREDIT",
+    "expected_decision": "FLAG_DUPLICATE",
+    "actual_decision": "MULTIPLE_CAMPAIGNS_CREDITED",
+    "affected_entity_id": "ORD-2026-000001",
+    "description": "Isolated negative fixture; one order must not receive credit from multiple campaigns.",
+    "detected_at": "2026-10-30T12:00:00"
+  },
+  {
+    "issue_type": "STALE_CART_TOTAL",
+    "ground_truth": "LINE_SUM_IS_SOURCE_OF_TRUTH",
+    "expected_decision": "RECALCULATE_TOTAL",
+    "actual_decision": "STALE_TOTAL_RETAINED",
+    "affected_entity_id": "CART-2026-050000",
+    "description": "Isolated negative fixture; totals are reconciled from final quantities in baseline records.",
+    "detected_at": "2026-10-30T12:00:00"
+  }
+]

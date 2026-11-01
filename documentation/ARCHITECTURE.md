@@ -1,0 +1,2 @@
+# Architecture
+React/TypeScript dashboard -> FastAPI REST API -> SQLAlchemy/PyMySQL -> MySQL 8. Synthetic data generator and validation run independently and export CSV/JSON. Simulated message events avoid external providers. API modules expose dashboard, customers, carts, campaigns, sends, orders, consent and anomalies. MySQL InnoDB enforces relational integrity.
