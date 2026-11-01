@@ -256,12 +256,12 @@ Copy-Item backend/.env.example backend/.env
 Configure the database connection in `backend/.env`:
 
 ```env
-DATABASE_URL=mysql+pymysql://root:YOUR_PASSWORD@localhost:3306/cart_recovery
+DATABASE_URL=mysql+pymysql://root:CHANGE_ME@localhost:3306/cart_recovery
 ```
 
-Replace `YOUR_PASSWORD` with your own MySQL password.
+Replace `CHANGE_ME` with your own MySQL password.
 
-Do not upload actual `.env` files or credentials to GitHub.
+
 
 ### Step 4: Generate Synthetic Data
 
