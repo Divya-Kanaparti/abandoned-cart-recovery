@@ -378,6 +378,4 @@ This project is a demonstration application and is not a production messaging pl
 
 ## 14. Project Purpose
 
-This project was developed as part of the YottaFlex AI Code Challenge.
-
 It demonstrates the development of an end-to-end business workflow involving synthetic data generation, relational database management, abandoned cart detection, communication consent, recovery campaigns, conversion attribution and data validation.
