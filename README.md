@@ -241,6 +241,7 @@ Activate it in Windows PowerShell:
 ```
 
 Install dependencies:
+install all the backend requirements
 
 ```bash
 python -m pip install --upgrade pip
