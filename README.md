@@ -210,21 +210,18 @@ cd abandoned-cart-recovery
 ### Step 2: Create the MySQL Database
 
 Open MySQL Command Line Client.
+Enter your own MySQL password when prompted.
 
 Create the database:
 
 ```sql
 CREATE DATABASE cart_recovery;
-```
+USE cart_recovery;
 
 Import the database schema:
-
-```bash
-In root directory:
-mysql -u root -p cart_recovery < database/schema.sql
+source <file-path>
+source C:/Users/YourName/Documents/schema.sql
 ```
-
-Enter your own MySQL password when prompted.
 
 ### Step 3: Configure the Backend
 
