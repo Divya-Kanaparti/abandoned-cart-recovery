@@ -2,6 +2,13 @@
 
 An end-to-end application that identifies abandoned shopping carts, manages customer communication consent, coordinates recovery campaigns, tracks customer interactions, and measures conversions using synthetic data.
 
+
+## Database Design – ER Diagram
+
+The following diagram shows the database entities and their relationships.
+
+[View the Abandoned Cart Recovery ER Diagram](documentation/ER_Diagram.md)
+
 ## 1. Problem Statement
 
 ### Business Context
