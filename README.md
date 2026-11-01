@@ -245,6 +245,8 @@ Install dependencies:
 ```bash
 python -m pip install --upgrade pip
 pip install -r backend/requirements.txt
+pip install fastapi uvicorn[standard] SQLAlchemy PyMySQL python-dotenv pydantic pydantic-core pandas pytest httpx --upgrade --only-binary :all:
+
 ```
 
 Create your local environment file:
