@@ -220,6 +220,7 @@ CREATE DATABASE cart_recovery;
 Import the database schema:
 
 ```bash
+In root directory:
 mysql -u root -p cart_recovery < database/schema.sql
 ```
 
